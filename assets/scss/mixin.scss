@@ -19,6 +19,7 @@
     align-items: center;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
+    transition: all 0.5s ease-in-out;
     &:hover {
         @extend .border-btn-hover;
     }
