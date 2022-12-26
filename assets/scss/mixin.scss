@@ -1,0 +1,25 @@
+@mixin card($color) {
+    color: white;
+    background-color: $color;
+    width: 23em;
+    height: 30em;
+    padding: 40px;
+    border-radius: 0;
+}
+
+@mixin card-btn ($color){
+    color: $color;
+    background-color: $white-light;
+    width: $width-btn;
+    height: $height-btn;
+    border: $border-btn;  
+    border-radius: $border-radius;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    &:hover {
+        @extend .border-btn-hover;
+    }
+}
