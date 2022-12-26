@@ -1,0 +1,19 @@
+@media (max-width: 1053px) {
+    body {
+        margin-top: 20em;
+        background-color: red;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 390px) {
+    body {
+        background-color: blue;
+    }
+    .card-sedan,.card-suv, .card-lux {
+        width: 18em !important;
+    }
+}
