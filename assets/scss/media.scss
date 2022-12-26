@@ -3,6 +3,11 @@
         margin-top: 20em;
         background-color: red;
     }
+
+    .card-sedan {
+        margin-top: 10em;
+    }
+
     .row {
         display: flex;
         flex-direction: column;
@@ -16,4 +21,11 @@
     .card-sedan,.card-suv, .card-lux {
         width: 18em !important;
     }
+}
+
+@media (max-height: 500px) and (orientation: landscape) { 
+    body { 
+        background-color: purple; 
+        margin-top: 30em; 
+    } 
 }
