@@ -1,7 +1,6 @@
 @media (max-width: 1053px) {
     body {
         margin-top: 20em;
-        background-color: red;
     }
 
     .card-sedan {
@@ -15,9 +14,7 @@
 }
 
 @media (max-width: 390px) {
-    body {
-        background-color: blue;
-    }
+
     .card-sedan,.card-suv, .card-lux {
         width: 18em !important;
     }
@@ -25,7 +22,6 @@
 
 @media (max-height: 500px) and (orientation: landscape) { 
     body { 
-        background-color: purple; 
         margin-top: 30em; 
     } 
 }
