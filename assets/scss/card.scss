@@ -1,9 +1,19 @@
 // # Global
+.row {
+    overflow: hidden;
+    border-radius: 10px;
+}
 
 .card-img {
     width: 50px;
 }
 
+.card-title {
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', 'cursive';
+    text-transform: uppercase;
+    font-weight: 700;
+}
 .card-text {
     margin: 3em 0;
     width: 80%;
